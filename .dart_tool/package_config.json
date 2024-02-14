@@ -80,12 +80,6 @@
       "languageVersion": "3.0"
     },
     {
-      "name": "fixnum",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/fixnum-1.1.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.19"
-    },
-    {
       "name": "flutter",
       "rootUri": "file:///Users/elvinsadikhov/DevelopmentTools/flutter_3.16.7/packages/flutter",
       "packageUri": "lib/",
@@ -224,12 +218,6 @@
       "languageVersion": "2.18"
     },
     {
-      "name": "sprintf",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/sprintf-7.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "stack_trace",
       "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/stack_trace-1.11.1",
       "packageUri": "lib/",
@@ -261,7 +249,7 @@
     },
     {
       "name": "syncfusion_flutter_pdfviewer",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_flutter_pdfviewer-24.2.5",
+      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/git/flutter-widgets-cd519011445a19cc2c435190e5a67e2bf90a4d2b/packages/syncfusion_flutter_pdfviewer",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
@@ -375,9 +363,9 @@
     },
     {
       "name": "uuid",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/uuid-4.3.3",
+      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/uuid-3.0.7",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "2.12"
     },
     {
       "name": "vector_math",
@@ -422,7 +410,7 @@
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2024-02-14T07:57:52.099950Z",
+  "generated": "2024-02-14T09:10:12.274433Z",
   "generator": "pub",
   "generatorVersion": "3.2.4"
 }

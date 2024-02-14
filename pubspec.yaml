@@ -22,7 +22,10 @@ dependencies:
   syncfusion_localizations: ^24.1.41
   syncfusion_flutter_sliders: ^24.1.41
   syncfusion_flutter_pdf: ^24.1.41
-  syncfusion_flutter_pdfviewer: ^24.1.41
+  syncfusion_flutter_pdfviewer:
+    git:
+      url: https://github.com/ElvinSadikhov/flutter-widgets.git
+      path: packages/syncfusion_flutter_pdfviewer
 
 flutter:
   uses-material-design: true
