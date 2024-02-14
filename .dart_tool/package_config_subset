@@ -1,7 +1,7 @@
 syncfusion_flutter_pdfviewer
 2.17
-file:///Users/elvinsadikhov/.pub-cache/git/flutter-widgets-284c1a58b4254fa9daa00359950db83993d1cfcd/packages/syncfusion_flutter_pdfviewer/
-file:///Users/elvinsadikhov/.pub-cache/git/flutter-widgets-284c1a58b4254fa9daa00359950db83993d1cfcd/packages/syncfusion_flutter_pdfviewer/lib/
+file:///Users/elvinsadikhov/.pub-cache/git/flutter-widgets-540953263ae2113c6864fc6d2f8c8bd84cf10884/packages/syncfusion_flutter_pdfviewer/
+file:///Users/elvinsadikhov/.pub-cache/git/flutter-widgets-540953263ae2113c6864fc6d2f8c8bd84cf10884/packages/syncfusion_flutter_pdfviewer/lib/
 async
 2.18
 file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/async-2.11.0/
@@ -55,9 +55,9 @@ file
 file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/file-7.0.0/
 file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/file-7.0.0/lib/
 http
-3.2
-file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/http-1.2.0/
-file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/http-1.2.0/lib/
+2.19
+file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/http-0.13.6/
+file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/http-0.13.6/lib/
 http_parser
 2.12
 file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/http_parser-4.0.2/
