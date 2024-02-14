@@ -633,7 +633,7 @@ class AnnotationToolbarState extends State<AnnotationToolbar> {
                       widget.onTap?.call(PdfAnnotationMode.highlight);
                     },
                     child: ImageIcon(
-                      const AssetImage(
+                      Image.asset(
                         'images/pdf_viewer/highlight.png',
                       ),
                       size: 16,
@@ -654,7 +654,7 @@ class AnnotationToolbarState extends State<AnnotationToolbar> {
                       widget.onTap?.call(PdfAnnotationMode.underline);
                     },
                     child: ImageIcon(
-                      const AssetImage(
+                      Image.asset(
                         'images/pdf_viewer/underline.png',
                       ),
                       size: 16,
@@ -675,7 +675,7 @@ class AnnotationToolbarState extends State<AnnotationToolbar> {
                       widget.onTap?.call(PdfAnnotationMode.strikethrough);
                     },
                     child: ImageIcon(
-                      const AssetImage(
+                      Image.asset(
                         'images/pdf_viewer/strikethrough.png',
                       ),
                       size: 16,
@@ -696,7 +696,7 @@ class AnnotationToolbarState extends State<AnnotationToolbar> {
                       widget.onTap?.call(PdfAnnotationMode.squiggly);
                     },
                     child: ImageIcon(
-                      const AssetImage(
+                      Image.asset(
                         'images/pdf_viewer/squiggly.png',
                       ),
                       size: 16,
@@ -726,7 +726,7 @@ class AnnotationToolbarState extends State<AnnotationToolbar> {
                           widget.onTap?.call('Color Palette');
                         },
                         child: ImageIcon(
-                          const AssetImage(
+                          Image.asset(
                             'images/pdf_viewer/color_palette.png',
                           ),
                           size: 17,
@@ -749,7 +749,7 @@ class AnnotationToolbarState extends State<AnnotationToolbar> {
                           widget.onTap?.call('Delete');
                         },
                         child: ImageIcon(
-                          const AssetImage(
+                          Image.asset(
                             'images/pdf_viewer/delete.png',
                           ),
                           size: 17,
@@ -771,7 +771,7 @@ class AnnotationToolbarState extends State<AnnotationToolbar> {
                           widget.onTap?.call('Lock');
                         },
                         child: ImageIcon(
-                          AssetImage(_isAnnotationLocked
+                          Image.asset(_isAnnotationLocked
                               ? 'images/pdf_viewer/unlocked.png'
                               : 'images/pdf_viewer/locked.png'),
                           size: 18,

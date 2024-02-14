@@ -934,7 +934,7 @@ class _CustomToolbarPdfViewerState extends SampleViewState {
             Padding(
               padding: const EdgeInsets.only(left: 19),
               child: ImageIcon(
-                AssetImage(
+                Image.asset(
                   imagePath,
                 ),
                 size: 24,
@@ -2167,7 +2167,7 @@ class ToolbarState extends State<Toolbar> {
                         widget.onTap?.call('Color Palette');
                       },
                       child: ImageIcon(
-                        const AssetImage(
+                        Image.asset(
                           'images/pdf_viewer/color_palette.png',
                         ),
                         size: 17,
@@ -2190,7 +2190,7 @@ class ToolbarState extends State<Toolbar> {
                         widget.onTap?.call('Delete');
                       },
                       child: ImageIcon(
-                        const AssetImage(
+                        Image.asset(
                           'images/pdf_viewer/delete.png',
                         ),
                         size: 17,
@@ -2216,7 +2216,7 @@ class ToolbarState extends State<Toolbar> {
                         widget.onTap?.call('Lock');
                       },
                       child: ImageIcon(
-                        AssetImage(_isAnnotationLocked
+                        Image.asset(_isAnnotationLocked
                             ? 'images/pdf_viewer/unlocked.png'
                             : 'images/pdf_viewer/locked.png'),
                         size: 18,
@@ -2332,7 +2332,7 @@ class ToolbarState extends State<Toolbar> {
     }
 
     return ImageIcon(
-      AssetImage(iconPath),
+      Image.asset(iconPath),
       size: iconSize,
       color: _isLight ? Colors.black : const Color(0xFFFFFFFF),
     );
@@ -2520,8 +2520,8 @@ class ToolbarState extends State<Toolbar> {
                   color: _textMarkupFillColor,
                   borderRadius: BorderRadius.circular(4.0),
                   child: IconButton(
-                    icon: const ImageIcon(
-                      AssetImage('images/pdf_viewer/text_markup.png'),
+                    icon: ImageIcon(
+                      Image.asset('images/pdf_viewer/text_markup.png'),
                       size: 16,
                     ),
                     onPressed: () {
@@ -2685,7 +2685,7 @@ class _TextMarkupMenuItemState extends State<TextMarkupMenuItem> {
           child: Row(
             children: <Widget>[
               Image(
-                image: AssetImage(
+                image: Image.asset(
                     'images/pdf_viewer/${widget.mode.toLowerCase()}.png'),
                 width: 16,
                 height: 16,

@@ -1535,9 +1535,9 @@ class _ColorPaletteState extends State<ColorPalette> {
                     },
                     child: Container(
                       decoration: ShapeDecoration(
-                        image: const DecorationImage(
+                        image: DecorationImage(
                             opacity: 0.7,
-                            image: AssetImage('images/pdf_viewer/opacity.png')),
+                            image: Image.asset('images/pdf_viewer/opacity.png')),
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(4)),
                       ),
@@ -1714,7 +1714,7 @@ class _BottomToolbarState extends State<BottomToolbar> {
     if (annotationMode == PdfAnnotationMode.highlight ||
         annotation is HighlightAnnotation) {
       return ImageIcon(
-        const AssetImage(
+        Image.asset(
           'images/pdf_viewer/highlight.png',
         ),
         size: 20,
@@ -1723,7 +1723,7 @@ class _BottomToolbarState extends State<BottomToolbar> {
     } else if (annotationMode == PdfAnnotationMode.strikethrough ||
         annotation is StrikethroughAnnotation) {
       return ImageIcon(
-        const AssetImage(
+        Image.asset(
           'images/pdf_viewer/strikethrough.png',
         ),
         size: 20,
@@ -1732,7 +1732,7 @@ class _BottomToolbarState extends State<BottomToolbar> {
     } else if (annotationMode == PdfAnnotationMode.underline ||
         annotation is UnderlineAnnotation) {
       return ImageIcon(
-        const AssetImage(
+        Image.asset(
           'images/pdf_viewer/underline.png',
         ),
         size: 20,
@@ -1741,7 +1741,7 @@ class _BottomToolbarState extends State<BottomToolbar> {
     } else if (annotationMode == PdfAnnotationMode.squiggly ||
         annotation is SquigglyAnnotation) {
       return ImageIcon(
-        const AssetImage(
+        Image.asset(
           'images/pdf_viewer/squiggly.png',
         ),
         size: 20,
@@ -2187,7 +2187,7 @@ class _BottomToolbarState extends State<BottomToolbar> {
                             });
                           },
                           child: ImageIcon(
-                            AssetImage(widget.selectedAnnotation != null &&
+                            Image.asset(widget.selectedAnnotation != null &&
                                     widget.selectedAnnotation!.isLocked
                                 ? 'images/pdf_viewer/unlocked.png'
                                 : 'images/pdf_viewer/locked.png'),
@@ -2226,8 +2226,8 @@ class _BottomToolbarState extends State<BottomToolbar> {
                                     widget.selectedAnnotation!);
                               }
                             },
-                            child: const ImageIcon(
-                              AssetImage('images/pdf_viewer/delete.png'),
+                            child: ImageIcon(
+                              Image.asset('images/pdf_viewer/delete.png'),
                               size: 22,
                             ),
                           ),
