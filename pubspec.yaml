@@ -1,7 +1,7 @@
-name: flutter_examples
+name: custom_toolbar_pdf_viewer
 description: This project contains the Syncfusion Flutter UI widgets examples.
 version: 20.3.47  
-homepage: https://github.com/syncfusion/flutter-examples
+# homepage: https://github.com/syncfusion/flutter-examples
 
 environment:
   sdk: ">=2.17.0 <3.0.0"
