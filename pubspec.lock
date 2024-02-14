@@ -57,6 +57,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.3"
+  cupertino_icons:
+    dependency: transitive
+    description:
+      name: cupertino_icons
+      sha256: d57953e10f9f8327ce64a508a355f0b1ec902193f66288e8cb5070e7c47eeb2d
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.6"
   desktop_window:
     dependency: "direct main"
     description:
@@ -298,6 +306,15 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.0"
+  syncfusion_examples_images:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: df3b8ff4be96c55f1ac33ff136c241c8790a54d9
+      url: "https://github.com/ElvinSadikhov/syncfusion-examples-images.git"
+    source: git
+    version: "1.0.0+1"
   syncfusion_flutter_core:
     dependency: transitive
     description:
@@ -319,7 +336,7 @@ packages:
     description:
       path: "packages/syncfusion_flutter_pdfviewer"
       ref: HEAD
-      resolved-ref: d79e12f52a495cfa37b67e4086b837c63d7be0a7
+      resolved-ref: a94985d250d581b5331e97a3f087051ef3a1f0df
       url: "https://github.com/ElvinSadikhov/flutter-widgets.git"
     source: git
     version: "24.1.41"
@@ -524,5 +541,5 @@ packages:
     source: hosted
     version: "6.5.0"
 sdks:
-  dart: ">=3.2.0 <4.0.0"
+  dart: ">=3.2.4 <4.0.0"
   flutter: ">=3.16.0"

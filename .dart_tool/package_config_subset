@@ -1,7 +1,11 @@
 syncfusion_flutter_pdfviewer
 2.17
-file:///Users/elvinsadikhov/.pub-cache/git/flutter-widgets-d79e12f52a495cfa37b67e4086b837c63d7be0a7/packages/syncfusion_flutter_pdfviewer/
-file:///Users/elvinsadikhov/.pub-cache/git/flutter-widgets-d79e12f52a495cfa37b67e4086b837c63d7be0a7/packages/syncfusion_flutter_pdfviewer/lib/
+file:///Users/elvinsadikhov/.pub-cache/git/flutter-widgets-a94985d250d581b5331e97a3f087051ef3a1f0df/packages/syncfusion_flutter_pdfviewer/
+file:///Users/elvinsadikhov/.pub-cache/git/flutter-widgets-a94985d250d581b5331e97a3f087051ef3a1f0df/packages/syncfusion_flutter_pdfviewer/lib/
+syncfusion_examples_images
+3.2
+file:///Users/elvinsadikhov/.pub-cache/git/syncfusion-examples-images-df3b8ff4be96c55f1ac33ff136c241c8790a54d9/
+file:///Users/elvinsadikhov/.pub-cache/git/syncfusion-examples-images-df3b8ff4be96c55f1ac33ff136c241c8790a54d9/lib/
 async
 2.18
 file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/async-2.11.0/
@@ -30,6 +34,10 @@ crypto
 2.19
 file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/crypto-3.0.3/
 file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/crypto-3.0.3/lib/
+cupertino_icons
+2.19
+file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/cupertino_icons-1.0.6/
+file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/cupertino_icons-1.0.6/lib/
 desktop_window
 2.12
 file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/desktop_window-0.4.0/

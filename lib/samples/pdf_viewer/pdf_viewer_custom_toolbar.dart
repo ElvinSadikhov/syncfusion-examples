@@ -936,6 +936,7 @@ class _CustomToolbarPdfViewerState extends SampleViewState {
               child: ImageIcon(
                 AssetImage(
                   imagePath,
+                  package: 'syncfusion_examples_images',
                 ),
                 size: 24,
                 color: _isLight ? Colors.black : const Color(0xFFFFFFFF),
@@ -1806,6 +1807,8 @@ class ToolbarState extends State<Toolbar> {
     );
   }
 
+
+  //! web toolbar
   /// Get custom toolbar for web platform.
   Widget _webToolbar(bool canJumpToPreviousPage, bool canJumpToNextPage) {
     return SizedBox(
@@ -2169,6 +2172,7 @@ class ToolbarState extends State<Toolbar> {
                       child: ImageIcon(
                         const AssetImage(
                           'images/pdf_viewer/color_palette.png',
+                          package: 'syncfusion_examples_images',
                         ),
                         size: 17,
                         color:
@@ -2192,6 +2196,7 @@ class ToolbarState extends State<Toolbar> {
                       child: ImageIcon(
                         const AssetImage(
                           'images/pdf_viewer/delete.png',
+                          package: 'syncfusion_examples_images',
                         ),
                         size: 17,
                         color:
@@ -2218,7 +2223,8 @@ class ToolbarState extends State<Toolbar> {
                       child: ImageIcon(
                         AssetImage(_isAnnotationLocked
                             ? 'images/pdf_viewer/unlocked.png'
-                            : 'images/pdf_viewer/locked.png'),
+                            : 'images/pdf_viewer/locked.png',
+                          package: 'syncfusion_examples_images',),
                         size: 18,
                         color:
                             _isLight ? Colors.black : const Color(0xFFFFFFFF),
@@ -2332,7 +2338,7 @@ class ToolbarState extends State<Toolbar> {
     }
 
     return ImageIcon(
-      AssetImage(iconPath),
+      AssetImage(iconPath, package: 'syncfusion_examples_images',),
       size: iconSize,
       color: _isLight ? Colors.black : const Color(0xFFFFFFFF),
     );
@@ -2416,6 +2422,7 @@ class ToolbarState extends State<Toolbar> {
     if (_isWeb) {
       return _webToolbar(canJumpToPreviousPage, canJumpToNextPage);
     } else {
+      //! mobile toolbar
       return GestureDetector(
         onTap: () {
           widget.onTap?.call('Toolbar');
@@ -2521,7 +2528,7 @@ class ToolbarState extends State<Toolbar> {
                   borderRadius: BorderRadius.circular(4.0),
                   child: IconButton(
                     icon: const ImageIcon(
-                      AssetImage('images/pdf_viewer/text_markup.png'),
+                      AssetImage('images/pdf_viewer/text_markup.png', package: 'syncfusion_examples_images',),
                       size: 16,
                     ),
                     onPressed: () {
@@ -2686,7 +2693,8 @@ class _TextMarkupMenuItemState extends State<TextMarkupMenuItem> {
             children: <Widget>[
               Image(
                 image: AssetImage(
-                    'images/pdf_viewer/${widget.mode.toLowerCase()}.png'),
+                    'images/pdf_viewer/${widget.mode.toLowerCase()}.png',
+                  package: 'syncfusion_examples_images',),
                 width: 16,
                 height: 16,
                 color: _textColor,

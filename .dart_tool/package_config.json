@@ -44,6 +44,12 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "cupertino_icons",
+      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/cupertino_icons-1.0.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
       "name": "desktop_window",
       "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/desktop_window-0.4.0",
       "packageUri": "lib/",
@@ -236,6 +242,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "syncfusion_examples_images",
+      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/git/syncfusion-examples-images-df3b8ff4be96c55f1ac33ff136c241c8790a54d9/",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
       "name": "syncfusion_flutter_core",
       "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_flutter_core-24.2.5",
       "packageUri": "lib/",
@@ -249,7 +261,7 @@
     },
     {
       "name": "syncfusion_flutter_pdfviewer",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/git/flutter-widgets-d79e12f52a495cfa37b67e4086b837c63d7be0a7/packages/syncfusion_flutter_pdfviewer",
+      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/git/flutter-widgets-a94985d250d581b5331e97a3f087051ef3a1f0df/packages/syncfusion_flutter_pdfviewer",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
@@ -410,7 +422,7 @@
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2024-02-14T11:10:54.536738Z",
+  "generated": "2024-02-14T18:59:30.883739Z",
   "generator": "pub",
   "generatorVersion": "3.2.4"
 }

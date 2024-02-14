@@ -10,11 +10,11 @@ Future<void> main() async {
     MaterialApp(
       debugShowCheckedModeBanner: false,
       home: CustomToolbarPdfViewer(
-        pdfLink: "1https://cdn.syncfusion.com/content/PDFViewer/flutter-succinctly.pdf",
+        pdfLink: "https://cdn.syncfusion.com/content/PDFViewer/flutter-succinctly.pdf",
         onDocumentLoadFailed: (PdfDocumentLoadFailedDetails details) {
           print("${details.error} ${details.description}");
         },
-        isMobileResolution: true,
+        isMobileResolution: false,
       )
     )
   );

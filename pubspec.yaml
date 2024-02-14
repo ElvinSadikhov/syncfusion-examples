@@ -26,6 +26,9 @@ dependencies:
     git:
       url: https://github.com/ElvinSadikhov/flutter-widgets.git
       path: packages/syncfusion_flutter_pdfviewer
+  syncfusion_examples_images:
+    git:
+      url: https://github.com/ElvinSadikhov/syncfusion-examples-images.git
 
 flutter:
   uses-material-design: true

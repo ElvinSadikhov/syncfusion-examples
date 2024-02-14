@@ -426,6 +426,7 @@ class _HomePageState extends State<HomePage> {
                                               0, 7, 8, 7),
                                           child: Row(children: <Widget>[
                                             Image.asset('images/pub_logo.png',
+                                                package: 'syncfusion_examples_images',
                                                 fit: BoxFit.contain,
                                                 height: 33,
                                                 width: 33),
@@ -860,7 +861,7 @@ class _CategorizedCardsState extends State<_CategorizedCards> {
                 child: ListTile(
                     contentPadding: EdgeInsets.fromLTRB(
                         12, 2, 0, category.controlList!.length > 3 ? 6 : 0),
-                    leading: Image.asset(control.image!, fit: BoxFit.cover),
+                    leading: Image.asset(control.image!, package: 'syncfusion_examples_images', fit: BoxFit.cover),
                     title: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: <Widget>[
