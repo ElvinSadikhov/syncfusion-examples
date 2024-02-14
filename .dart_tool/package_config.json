@@ -2,12 +2,6 @@
   "configVersion": 2,
   "packages": [
     {
-      "name": "archive",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/archive-3.4.10",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "async",
       "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/async-2.11.0",
       "packageUri": "lib/",
@@ -128,22 +122,10 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "image",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/image-4.1.6",
-      "packageUri": "lib/",
-      "languageVersion": "2.15"
-    },
-    {
       "name": "intl",
       "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/intl-0.18.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
-    },
-    {
-      "name": "jiffy",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/jiffy-6.2.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.19"
     },
     {
       "name": "js",
@@ -230,12 +212,6 @@
       "languageVersion": "3.0"
     },
     {
-      "name": "pointycastle",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/pointycastle-3.7.4",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
       "name": "sky_engine",
       "rootUri": "file:///Users/elvinsadikhov/DevelopmentTools/flutter_3.16.7/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
@@ -272,134 +248,62 @@
       "languageVersion": "2.18"
     },
     {
-      "name": "syncfusion_flutter_barcodes",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_flutter_barcodes-24.2.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "syncfusion_flutter_calendar",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_flutter_calendar-24.2.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "syncfusion_flutter_charts",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_flutter_charts-24.2.4+3",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
       "name": "syncfusion_flutter_core",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_flutter_core-24.2.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "syncfusion_flutter_datagrid",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_flutter_datagrid-24.2.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "syncfusion_flutter_datagrid_export",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_flutter_datagrid_export-24.2.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "syncfusion_flutter_datepicker",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_flutter_datepicker-24.2.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "syncfusion_flutter_gauges",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_flutter_gauges-24.2.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "syncfusion_flutter_maps",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_flutter_maps-24.2.4",
+      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_flutter_core-24.2.5",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "syncfusion_flutter_pdf",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_flutter_pdf-24.2.4",
+      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_flutter_pdf-24.2.5",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "syncfusion_flutter_pdfviewer",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_flutter_pdfviewer-24.2.4",
+      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_flutter_pdfviewer-24.2.5",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "syncfusion_flutter_signaturepad",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_flutter_signaturepad-24.2.4",
+      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_flutter_signaturepad-24.2.5",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "syncfusion_flutter_sliders",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_flutter_sliders-24.2.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "syncfusion_flutter_treemap",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_flutter_treemap-24.2.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "syncfusion_flutter_xlsio",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_flutter_xlsio-24.2.4",
+      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_flutter_sliders-24.2.5",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "syncfusion_localizations",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_localizations-24.2.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "syncfusion_officechart",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_officechart-24.2.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "syncfusion_officecore",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_officecore-24.2.4",
+      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_localizations-24.2.5",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "syncfusion_pdfviewer_macos",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_pdfviewer_macos-24.2.4",
+      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_pdfviewer_macos-24.2.5",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "syncfusion_pdfviewer_platform_interface",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_pdfviewer_platform_interface-24.2.4",
+      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_pdfviewer_platform_interface-24.2.5",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "syncfusion_pdfviewer_web",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_pdfviewer_web-24.2.4",
+      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_pdfviewer_web-24.2.5",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "syncfusion_pdfviewer_windows",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_pdfviewer_windows-24.2.4",
+      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/syncfusion_pdfviewer_windows-24.2.5",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
@@ -414,12 +318,6 @@
       "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/test_api-0.6.1",
       "packageUri": "lib/",
       "languageVersion": "3.0"
-    },
-    {
-      "name": "timezone",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/hosted/pub.dev/timezone-0.9.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
     },
     {
       "name": "typed_data",
@@ -524,7 +422,7 @@
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2024-02-14T06:42:04.476144Z",
+  "generated": "2024-02-14T07:57:52.099950Z",
   "generator": "pub",
   "generatorVersion": "3.2.4"
 }

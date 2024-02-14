@@ -20,19 +20,9 @@ dependencies:
   intl: ^0.18.0
   
   syncfusion_localizations: ^24.1.41
-  syncfusion_flutter_datagrid_export: ^24.1.41
-  syncfusion_flutter_calendar: ^24.1.41
-  syncfusion_flutter_datepicker: ^24.1.41
-  syncfusion_flutter_charts: ^24.1.41
-  syncfusion_flutter_gauges: ^24.1.41
   syncfusion_flutter_sliders: ^24.1.41
   syncfusion_flutter_pdf: ^24.1.41
-  syncfusion_flutter_barcodes: ^24.1.41
-  syncfusion_officechart: ^24.1.41
-  syncfusion_flutter_maps: ^24.1.41
-  syncfusion_flutter_signaturepad: ^24.1.41
   syncfusion_flutter_pdfviewer: ^24.1.41
-  syncfusion_flutter_treemap: ^24.1.41
 
 flutter:
   uses-material-design: true

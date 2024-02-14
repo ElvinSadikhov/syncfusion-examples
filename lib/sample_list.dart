@@ -312,17 +312,17 @@ import 'package:flutter/foundation.dart';
 // import 'samples/maps/tile_layer/vector_layer/arcs.dart';
 // import 'samples/maps/tile_layer/vector_layer/polygon.dart';
 // import 'samples/maps/tile_layer/vector_layer/polylines.dart';
-import 'samples/pdf/annotations.dart';
-import 'samples/pdf/certificate.dart';
-import 'samples/pdf/conformance.dart';
-import 'samples/pdf/digital_signature.dart';
-import 'samples/pdf/encryption.dart';
-import 'samples/pdf/find_text.dart';
-import 'samples/pdf/form.dart';
-import 'samples/pdf/header_and_footer.dart';
-import 'samples/pdf/import_and_export_form_data.dart';
-import 'samples/pdf/invoice.dart';
-import 'samples/pdf/text_extraction.dart';
+// import 'samples/pdf/annotations.dart';
+// import 'samples/pdf/certificate.dart';
+// import 'samples/pdf/conformance.dart';
+// import 'samples/pdf/digital_signature.dart';
+// import 'samples/pdf/encryption.dart';
+// import 'samples/pdf/find_text.dart';
+// import 'samples/pdf/form.dart';
+// import 'samples/pdf/header_and_footer.dart';
+// import 'samples/pdf/import_and_export_form_data.dart';
+// import 'samples/pdf/invoice.dart';
+// import 'samples/pdf/text_extraction.dart';
 import 'samples/pdf_viewer/pdf_viewer_annotations.dart';
 import 'samples/pdf_viewer/pdf_viewer_custom_toolbar.dart';
 import 'samples/pdf_viewer/pdf_viewer_encrypted.dart';
@@ -736,17 +736,17 @@ Map<String, Function> getSampleWidget() {
     // 'api_gauge': (Key key) => ApiCustomization(key),
 
     // PDF samples
-    'invoice': (Key key) => InvoicePdf(key),
-    'certificate': (Key key) => CourseCompletionCertificatePdf(key),
-    'header_and_footer': (Key key) => HeaderAndFooterPdf(key),
-    'annotations': (Key key) => AnnotationsPdf(key),
-    'digital_signature': (Key key) => SignPdf(key),
-    'encryption': (Key key) => EncryptPdf(key),
-    'form': (Key key) => FormFillingPdf(key),
-    'import_and_export_form_data': (Key key) => ImportAndExportFormData(key),
-    'conformance': (Key key) => ConformancePdf(key),
-    'text_extraction': (Key key) => TextExtractionPdf(key),
-    'find_text': (Key key) => FindTextPdf(key),
+    // 'invoice': (Key key) => InvoicePdf(key),
+    // 'certificate': (Key key) => CourseCompletionCertificatePdf(key),
+    // 'header_and_footer': (Key key) => HeaderAndFooterPdf(key),
+    // 'annotations': (Key key) => AnnotationsPdf(key),
+    // 'digital_signature': (Key key) => SignPdf(key),
+    // 'encryption': (Key key) => EncryptPdf(key),
+    // 'form': (Key key) => FormFillingPdf(key),
+    // 'import_and_export_form_data': (Key key) => ImportAndExportFormData(key),
+    // 'conformance': (Key key) => ConformancePdf(key),
+    // 'text_extraction': (Key key) => TextExtractionPdf(key),
+    // 'find_text': (Key key) => FindTextPdf(key),
 
     // PDF Viewer samples
     'pdf_viewer_getting_started': (Key key) => GettingStartedPdfViewer(key),
