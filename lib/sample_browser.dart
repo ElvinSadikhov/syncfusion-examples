@@ -221,6 +221,7 @@ class _HomePageState extends State<HomePage> {
     final bool isMaxxSize = MediaQuery.of(context).size.width >= 1000;
     final SampleModel model = sampleListModel;
     model.isMobileResolution = (MediaQuery.of(context).size.width) < 768;
+    //! main scaffold (home page layout)
     return SafeArea(
         child: model.isMobileResolution
             ? Scaffold(
@@ -671,6 +672,7 @@ class _PersistentHeaderDelegate extends SliverPersistentHeaderDelegate {
 
 /// Positioning/aligning the categories as  cards
 /// based on the screen width
+//! Categorized cards (on home screen)
 class _CategorizedCards extends StatefulWidget {
   @override
   _CategorizedCardsState createState() => _CategorizedCardsState();
