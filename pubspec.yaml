@@ -34,6 +34,10 @@ flutter:
     - images/pdf/
     - images/xlsio/
     - images/pdf_viewer/
+    - web/images/
+    - web/images/pdf/
+    - web/images/xlsio/
+    - web/images/pdf_viewer/
     - assets/pdf/
     - lib/sample_details.json
     - assets/world_map.json
