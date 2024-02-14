@@ -249,7 +249,7 @@
     },
     {
       "name": "syncfusion_flutter_pdfviewer",
-      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/git/flutter-widgets-540953263ae2113c6864fc6d2f8c8bd84cf10884/packages/syncfusion_flutter_pdfviewer",
+      "rootUri": "file:///Users/elvinsadikhov/.pub-cache/git/flutter-widgets-d79e12f52a495cfa37b67e4086b837c63d7be0a7/packages/syncfusion_flutter_pdfviewer",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
@@ -410,7 +410,7 @@
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2024-02-14T10:44:30.383117Z",
+  "generated": "2024-02-14T11:10:54.536738Z",
   "generator": "pub",
   "generatorVersion": "3.2.4"
 }

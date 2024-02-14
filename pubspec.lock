@@ -319,7 +319,7 @@ packages:
     description:
       path: "packages/syncfusion_flutter_pdfviewer"
       ref: HEAD
-      resolved-ref: "540953263ae2113c6864fc6d2f8c8bd84cf10884"
+      resolved-ref: d79e12f52a495cfa37b67e4086b837c63d7be0a7
       url: "https://github.com/ElvinSadikhov/flutter-widgets.git"
     source: git
     version: "24.1.41"
